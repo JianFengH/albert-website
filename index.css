@@ -1,25 +1,309 @@
 .at-navbar {
     /* padding: 0.5rem 3rem; */
     font-family: Copperplate-Bold, Copperplate;
-    font-size: 7px;
 }
 
 .at-html .at-btn {
     background: #002FA7;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2), 0px 1px 12px 0px rgba(0, 0, 0, 0.12), 0px 4px 7px 0px rgba(0, 0, 0, 0.14);
-    border-radius: 24px;
-    font-size: 7px;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+}
+
+.at-html .at-btn2 {
+    padding: 0 2rem;
 }
 
 .at-title {
     color: #002FA7;
-    font-size: 25px;
+    font-size: 3rem;
     font-family: Copperplate-Bold, Copperplate;
 }
 
 .at-subtitle {
-    font-size: 8px;
+    font-family: Copperplate-Bold, Copperplate;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.at-text1 {
+    color: #0030AE;
+    font-family: PingFangSC-Regular, PingFang SC;
+}
+
+.at-circle-box {
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 5rem;
+}
+
+.at-circle-image {
+    -webkit-animation: rotation 30s linear infinite;
+    animation: rotation 30s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.at-section-video {
+    background-color: #D8E3FF;
+}
+
+.at-video-box {
+    max-width: 45.8rem;
+    margin: 0 auto;
+}
+
+.at-video-box video {
+    border-radius: 2rem;
+    border: 0.5rem solid #002FA7;
+}
+
+.at-supply-content {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 0.5rem solid #002FA7;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 1.2rem 0;
+    font-family: Copperplate;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.85);
+    position: relative
+}
+
+.at-bot-left {
+    position: absolute;
+    width: 7.3rem;
+    transform: translate(-130%, -30%);
+}
+
+.at-bot-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5.8rem;
+    transform: translate(140%, 20%);
+}
+
+.at-supply-text {
+    color: #002FA7;
+}
+
+.at-m-title {
+    color: #002FA7;
+    font-family: Copperplate-Bold, Copperplate;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+
+.at-m-title:hover {
+    transform: scale(1.1);
+    -webkit-text-stroke: 1px #0032AB;
+    color: transparent;
+}
+
+.at-m-subtitle {
+    text-transform: uppercase;
+    font-family: Copperplate-Bold, Copperplate;
+    max-width: 49rem;
+    margin: 0 auto;
+}
+
+.at-select-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.at-select-content {
+    display: flex;
+    align-items: stretch;
+    border-radius: 1.25rem;
+    border: 0.19rem solid #002FA7;
+    min-width: 9rem;
+    box-sizing: border-box;
+    font-family: Copperplate-Bold, Copperplate;
+    filter: grayscale(1);
+    opacity: .6;
+}
+
+.at-select-value {
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.at-select-label {
+    flex: 1;
+    background: #002FA7;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: #fff;
+    font-size: 0.8rem;
+    position: relative;
+    left: 2px;
+}
+
+.at-section-work {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.at-mail-box {
+    display: flex;
+    justify-content: center;
+}
+
+.at-mail-box a {
+    margin: 0 .4rem;
+}
+
+.at-mail-box .at-btn2 {
+    margin: 0 1.8rem;
+}
+
+.at-section-three {
+    background: url(./images/mountain.webp) center bottom/100% no-repeat;
+}
+
+.at-three-box {
+    max-width: 50rem;
+    margin: 5rem auto 6rem;
+}
+
+.at-gears-box {
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+
+.at-bot-row {
+    max-width: 60rem;
+    margin: 5rem auto 0;
+    position: relative;
+    top: -15rem;
+}
+
+.at-work-head {
+    max-width: 22.56rem;
+    height: 2.81rem;
+    background: #002FA7;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.at-work-number {
+    width: 1.75rem;
+    height: 1.75rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    font-size: 1.88rem;
+    font-family: Copperplate;
+    color: #000000;
+    margin-left: 0.63rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-work-title {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Copperplate;
+    color: #FFFFFF;
+    margin-left: 1.25rem;
+}
+
+.at-work-icon {
+    color: #fff;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.at-work-last {
+    transform: translate(10%, 15%);
+}
+
+.at-team-image {
+    margin: 0 auto;
+    position: relative;
+}
+
+.at-team-circle {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.at-team-title {
     font-family: Copperplate-Bold, Copperplate;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.85);
+    margin-top: .5rem;
 }
+
+.at-team-content {
+    font-family: Copperplate;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.at-section-team {
+    background: url(./images/flower.webp) center -2rem no-repeat;
+}
+
+.at-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+}
+
+.at-footer-text {
+    font-size: 0.75rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    margin: 0 1rem;
+}
+.at-table{
+    margin: 0 auto;
+    border-radius: 2rem;
+    border: 0.5rem solid #002FA7;
+    max-width: 48.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .at-bot-left, .at-bot-right {
+        display: none;
+    }
+    .at-work-last{
+        transform: none;
+    }
+    .at-title{
+        font-size: 2.5rem;
+    }
+    .at-bot-row{
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .section {
+        padding: 4rem 3rem;
+    }
+}
+
