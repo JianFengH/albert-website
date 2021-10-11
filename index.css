@@ -1,12 +1,14 @@
 .at-navbar {
     /* padding: 0.5rem 3rem; */
     font-family: Copperplate-Bold, Copperplate;
+    font-size: 7px;
 }
 
 .at-html .at-btn {
     background: #002FA7;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2), 0px 1px 12px 0px rgba(0, 0, 0, 0.12), 0px 4px 7px 0px rgba(0, 0, 0, 0.14);
     border-radius: 24px;
+    font-size: 7px;
 }
 
 .at-title {
