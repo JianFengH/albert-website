@@ -105,11 +105,10 @@
     <section class="section at-section-video" id="mint">
         <div class="container">
             <div class="at-video-box">
-                <video width="100%" controls>
-                    <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+                <iframe class="at-video-container" width="100%" height="315"
+                    src="https://www.youtube.com/embed/ENLe-vliNDY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"></iframe>
 
                 <div class="at-supply-content">
                     <div class="at-bot-left">
@@ -125,8 +124,8 @@
                     <br />max mint amount per wallet: <span class="at-supply-text">5</span>
                     <div class="at-select-box">
                         <div class="at-select-content">
-                            <div class="at-select-value">1</div>
-                            <div class="at-select-label">MINT</div>
+                            <input class="at-select-value" type="number" min="1" max="5" value="1"/>
+                            <a class="button is-link at-select-label">MINT</a>
                         </div>
                     </div>
                 </div>
