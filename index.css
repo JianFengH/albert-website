@@ -201,8 +201,9 @@
 
 .at-work-head {
     background: #002FA7;
-    margin: 1rem 0;
+    margin: 1rem auto;
     position: relative;
+    width: 20rem;
 }
 
 .at-work-number {
