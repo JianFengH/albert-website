@@ -21,11 +21,14 @@
 
 .at-title {
     color: #002FA7;
-    font-family: Copperplate;
+    font-family: Copperplate-Bold, Copperplate;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .at-subtitle {
-    font-family: Copperplate;
+    font-family: Copperplate-Bold, Copperplate;
+    font-weight: bold;
     color: rgba(0, 0, 0, 0.85);
 }
 
