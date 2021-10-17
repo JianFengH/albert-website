@@ -4,7 +4,7 @@
 }
 
 .at-navbar {
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
 }
 
 .at-html .at-btn {
@@ -20,11 +20,11 @@
 
 .at-title {
     color: #002FA7;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
 }
 
 .at-subtitle {
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
     color: rgba(0, 0, 0, 0.85);
 }
 
@@ -102,7 +102,7 @@
 
 .at-m-title {
     color: #002FA7;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
     text-transform: uppercase;
     transition: all .4s ease-in-out;
 }
@@ -115,7 +115,7 @@
 
 .at-m-subtitle {
     text-transform: uppercase;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
     max-width: 49rem;
     margin: 0 auto;
 }
@@ -134,7 +134,7 @@
     min-width: 9rem;
     height: 2.5rem;
     box-sizing: border-box;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
 }
 
 .at-select-value {
@@ -145,7 +145,7 @@
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     text-align: center;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
 }
 
 .at-select-content .at-select-label {
@@ -262,7 +262,7 @@
 }
 
 .at-team-title {
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.85);
     margin-top: .5rem;
@@ -367,7 +367,7 @@
 
 .at-num-bottom {
     font-size: 1.2rem;
-    font-family: Copperplate-Bold, Copperplate;
+    font-family: Copperplate;
     font-weight: bold;
     color: #002FA7;
     margin-top: 3rem;
