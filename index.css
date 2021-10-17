@@ -310,6 +310,75 @@
     margin-bottom: -8rem;
 }
 
+.at-num-row {
+    margin-top: 1.5rem;
+}
+
+.at-num-row:first-child {
+    margin-top: 0;
+}
+
+.at-num-container {
+    display: flex;
+    align-items: center;
+}
+
+.at-num-box {
+    flex: none;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background: #002FA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.5rem; */
+    font-family: Copperplate;
+    color: #FFFFFF;
+}
+
+.at-num-title {
+    font-family: Copperplate Bold;
+    /* font-size: 1.3rem; */
+    color: #002FA7;
+    text-transform: uppercase;
+    margin-left: .5rem;
+}
+
+.at-num-text {
+    font-family: Copperplate Bold;
+    /* font-size: 1.3rem; */
+    color: rgba(0, 0, 0, 0.85);
+    text-transform: uppercase;
+}
+
+.at-num-content {
+    font-family: Copperplate;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.at-num-tips {
+    font-size: 0.75rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.at-num-bottom {
+    font-size: 1.2rem;
+    font-family: Copperplate-Bold, Copperplate;
+    font-weight: bold;
+    color: #002FA7;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.at-bg {
+    background: url(./images/star@2x.webp) center/100% repeat;
+}
+
 @media screen and (max-width: 1024px) {
     .at-bot-left, .at-bot-right {
         display: none;
